@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "emoji-download-from-discord"
+version = "0.1.0"
+description = ""
+authors = ["satellitex <s.a.t.e.3.ths@gmail.com>"]
+readme = "README.md"
+packages = [{include = "emoji_download_from_discord"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
